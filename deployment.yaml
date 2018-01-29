@@ -1,0 +1,22 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+    name: hello-bz-deployment
+    labels:
+        app: hello-bz
+spec:
+  selector:
+    matchLabels:
+      app: hello-bz
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: hello-bz
+    spec:
+      containers:
+      - name: hello-bz
+        image: pdincau/hello-bz:1
+        ports:
+        - containerPort: 8080
+
