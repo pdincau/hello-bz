@@ -39,7 +39,7 @@ docker run --rm=true -it -p 8080:8080 --name hello-bz pdincau/hello-bz
 You can check the health of the service by calling:
 
 ```sh
-curl localhost:${PORT}/hello?yourname
+curl localhost:${PORT}/hello?name=yourname
 ```
 
 ## Healthcheck route
