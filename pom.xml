@@ -34,7 +34,7 @@
     </dependencies>
 
     <build>
-        <finalName>hello-atv</finalName>
+        <finalName>hello-bz</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
