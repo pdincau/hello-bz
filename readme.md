@@ -25,7 +25,7 @@ Default port is 8080.
 ## How to create docker image
 
 ```sh
-docker build -t pdincau/hello-bz i
+docker build -t pdincau/hello-bz .
 ```
 
 ## How to run docker image
